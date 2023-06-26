@@ -1,0 +1,707 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "HK Grotesk";
+}
+
+.head1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #666666;
+}
+
+.head_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.head_icon {
+  padding: 0 12px;
+  font-size: 100;
+  cursor: pointer;
+}
+
+.head_item:not(:nth-child(3))::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 18px;
+  background-color: #d9d9d9;
+  position: absolute;
+  right: -8px;
+}
+
+.head1 > ul {
+  padding: 0 120px;
+  list-style: none;
+  display: flex;
+}
+
+.head2 {
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 120px;
+}
+.head_item_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.head2_logo,
+.img_search_1,
+.img_search_2,
+.img_profile,
+.img_cart {
+  cursor: pointer;
+  padding: 0 12px;
+}
+.head2_logo > a {
+  color: #008ecc;
+  text-decoration: none;
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0 12px;
+}
+.head2_search > input {
+  /* position: absolute; */
+  width: 507px;
+  height: 48px;
+  border-radius: 10px;
+  padding: 0 40px;
+  background: #f3f9fb;
+  border: none;
+}
+
+.head2_search {
+  position: relative;
+}
+
+.img_search_2 {
+  position: absolute;
+  left: 10px;
+}
+
+.img_search_1 {
+  position: absolute;
+  right: 10px;
+}
+
+.head2_signup_in {
+  padding: 15px 0;
+}
+
+.head2_signup_in > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "HK Grotesk";
+}
+
+.head2_signup_in::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 18px;
+  background-color: #d9d9d9;
+  position: absolute;
+  right: 200px;
+}
+
+.head2_cart {
+  display: flex;
+  align-items: center;
+}
+.head2_cart > a {
+  text-decoration: none;
+}
+.head2 > span {
+  position: absolute;
+  top: 170px;
+  border: solid 1px #ededed;
+  width: 100%;
+  left: 0;
+}
+.img_cart {
+  display: flex;
+  align-items: center;
+}
+
+.head3 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.head3 > span {
+  border: solid 1px #ededed;
+  height: 1px;
+  width: 100%-240px;
+}
+.head3_button {
+  max-width: 200px;
+  min-width: 96px;
+  height: 36px;
+  border-radius: 18px;
+  background: #f3f9fb;
+  padding: 0 14px;
+  margin: 0 14px;
+  border: none;
+  font-weight: 600;
+}
+
+.head3_button.active {
+  background: #008ecc;
+  color: #ffffff;
+}
+
+.head3_button.img_stroke {
+  background-image: #008ecc;
+}
+
+.head3 > span {
+  position: absolute;
+  top: 130px;
+  border: solid 1px #ededed;
+  width: 100%;
+}
+/* .app_container{
+    position: relative;
+    display: flex;
+} */
+.container_1 {
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 96px;
+  top: 40px;
+  align-items: center;
+  z-index: 1;
+}
+.container_1_background {
+  position: relative;
+  background: #212844;
+  border-radius: 16px;
+  width: 1201px;
+  height: 316px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.container_1_background_left {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  left: 0;
+  color: #ffffff;
+}
+.container_1_background_left > h1 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  width: 582px;
+  padding: 20px 0 16px 70px;
+}
+.container_1_background_left > h3 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.875rem;
+  width: 582px;
+  padding: 16px 0 16px 70px;
+}
+.container_1_button-left {
+  left: 40px;
+  position: relative;
+  z-index: 1;
+}
+.container_1_button-right {
+  position: relative;
+  z-index: 1;
+  right: 40px;
+}
+
+.container_1_background_left > h2 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.875rem;
+  width: 582px;
+  padding: 16px 0 16px 70px;
+}
+.container_1_background_right {
+  position: relative;
+  padding: 24px 285px 22px 0;
+  right: -324px;
+}
+.container_1_background_right > img {
+  display: flex;
+  position: absolute;
+  top: -112px;
+  right: -24px;
+}
+.container_smartphones {
+  position: relative;
+  display: flex;
+  width: auto;
+
+  top: 80px;
+}
+.container_2_Smartphones {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container_2_Smartphones > span {
+  border: 1px solid #ededed;
+  width: 1198px;
+}
+.smartphones {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 16px;
+  padding: 40px;
+}
+.smartphone-item_info {
+  width: 226px;
+  height: 296px;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+}
+.smartphone-item_background {
+  position: absolute;
+  width: 225px;
+  height: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  top: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.smartphone-item_price-sale {
+  position: absolute;
+  background-color: #ffffff;
+  width: 225px;
+  height: 106px;
+  top: 188px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 13px;
+}
+.smartphone-item_price-sale > h5 {
+  font-size: 1rem;
+  font-family: "HK Grotesk";
+  padding-bottom: 4px;
+}
+.smartphone-item__price-old {
+  padding-left: 12px;
+}
+.smartphone-item__price_strike {
+  top: 70px;
+  left: 12px;
+  position: absolute;
+  width: 200px;
+  z-index: 1;
+  border: 1px solid #f5f5f5;
+}
+.smartphone-item_price-salemoney {
+  position: absolute;
+  top: 80px;
+  left: 12px;
+  background: none;
+  color: #249b3e;
+}
+
+.container_3_categories {
+  position: relative;
+  top: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 88px;
+}
+.header_container-item {
+  width: 1198px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_container-item > h5 {
+  font-size: 1.2rem;
+  font-family: "HK Grotesk";
+  font-weight: 550;
+}
+
+.header_container-item > h5 > span {
+  color: #008ecc;
+}
+.header_container-item > button {
+  background: none;
+  border: none;
+}
+.container_3_categories > span {
+  border: 1px solid #ededed;
+  width: 1198px;
+}
+.categories {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 30px;
+  padding-top: 28px;
+}
+.categories-item > h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  font-family: "HK Grotesk";
+  font-size: 1rem;
+  font-weight: 550;
+}
+.categories-item_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+.categories-item_background > img {
+  width: 54px;
+  height: 98px;
+}
+.container_electronicsbrands {
+  top: 550px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.electronisbrands {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #313131; */
+  gap: 10px;
+  padding-top: 30px;
+}
+.electronisbrands-item {
+  padding: 30px;
+  width: 389px;
+  height: 207px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 16px;
+}
+
+.container_4_electronicsbrands > span {
+  position: absolute;
+  border: 1px solid #ededed;
+  width: 1198px;
+}
+.electronisbrands-item_iphone {
+  background-color: #313131;
+  color: #ffffff;
+}
+
+.electrocnic_image_phone {
+  width: 160px;
+  height: 284px;
+  right: 10px;
+  position: absolute;
+  top: 10px;
+}
+.electronicsbrands-item_info {
+  height: 148px;
+  width: auto;
+  display: grid;
+}
+.elecbrands_logo_iphone {
+  width: 99px;
+  height: 35px;
+  background-color: #494949;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "HK Grotesk";
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.elecbrands_logo_realme {
+  width: 99px;
+  height: 35px;
+  background-color: #f6de8d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "HK Grotesk";
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.elecbrands_logo_xiaomi {
+  width: 99px;
+  height: 35px;
+  background-color: #ffd1b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "HK Grotesk";
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.electronicsbrands-item_info > h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "HK Grotesk";
+}
+.electronicsbrands-item_info > img {
+  padding: 16px 0;
+}
+.electronisbrands-item_realme {
+  background-color: #fff3cc;
+}
+.electronisbrands-item_xiaomi {
+  background-color: #ffecdf;
+}
+.container_5_essentials > span {
+  position: absolute;
+  width: 1198px;
+  border: 1px solid #ededed;
+}
+.container_essentials {
+  position: relative;
+  top: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.essentials {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 15px;
+  width: 187px;
+  padding-top: 30px;
+}
+.essentials-item {
+}
+.essentials-item_background {
+  height: 187px;
+  width: 187px;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+}
+.essentials-item_background > img {
+  width: 187px;
+  height: 122px;
+  position: absolute;
+  bottom: 88px;
+}
+.essentials-item_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.essentials-item_text > h5 {
+  color: #666666;
+  font-family: "HK Grotesk";
+  font-size: 1rem;
+  font-weight: 550;
+  padding: 14px 0 0 0;
+}
+.essentials-item_text > h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "HK Grotesk";
+}
+
+.footer {
+  position: relative;
+  bottom: -800px;
+  height: 550px;
+  width: 100%;
+  background-color: #008ecc;
+}
+.footer_heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+  color: #ffffff;
+}
+.footer_heading-left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer_heading-left > h2 {
+  font-family: "HK Grotesk";
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: normal;
+  padding: 40px 0;
+  line-height: 20px;
+}
+.footer_heading-left > h3 {
+  font-family: "HK Grotesk";
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  padding-top: 16px;
+}
+
+.footer_heading-left_whatsapp {
+  padding: 16px 0;
+}
+.footer_heading-left_appsize {
+  width: 24px;
+  height: 24px;
+}
+.footer_heading-left_apptext {
+  font-family: "HK Grotesk";
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+}
+.footer_heading-left_phonenumber {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_heading-left_download {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer_heading-left_appstore {
+  max-width: 191px;
+  height: 56px;
+  display: flex;
+  gap: 16px;
+}
+
+.footer_heading-left_download > h3 {
+  padding: 14px 0;
+}
+.footer_heading-right {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  width: 50%;
+  height: 360px;
+  top: 66px;
+  justify-content: space-between;
+}
+.footer_heading-right_sizetext {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 20px;
+  padding: 6px 0;
+}
+.footer_heading-right_popular > span {
+  position: absolute;
+  border: 2px solid #ffffff;
+  width: 248px;
+}
+.footer_heading-right_popular > h3 {
+  padding: 4px 0;
+}
+.footer_heading-right_popular > ul {
+  position: absolute;
+  left: 24px;
+  top: 38px;
+}
+.footer_heading-right_popular > ul > li {
+  padding: 8px 6px;
+}
+.footer_heading-right_services {
+  position: absolute;
+  right: 120px;
+}
+.footer_heading-right_services > span {
+  position: absolute;
+  border: 2px solid #ffffff;
+  width: 185px;
+}
+.footer_heading-right_services > h3 {
+  padding: 4px 0;
+}
+.footer_heading-right_services > ul {
+  padding: 4px 24px;
+}
+
+.footer_heading-right_services > ul > li {
+  padding: 8px 6px;
+}
+.footer_ending {
+  display: flex;
+  justify-content: center;
+}
+.footer_ending > span {
+  border: 1px solid #05abf3;
+  position: absolute;
+  width: 1198px;
+}
+.footer_ending > h1 {
+  font-family: "HK Grotesk";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding: 30px 0 0 0;
+}

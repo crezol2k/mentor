@@ -1,0 +1,645 @@
+@media only screen and(min-width:1024px) {
+}
+
+@media only screen and (max-width: 767px) {
+
+
+  .container_1{
+    padding: 0;
+    width: 100%;
+    top: 20px;
+  }
+  .container_1_background{
+    height: 100px;
+    width: 100%;
+  }
+  .container_1_button-left,
+  .container_1_button-right{
+    width: 40px;
+    height: 40px;
+  }
+  .container_1_button-left{
+    left: 20px;
+  }
+  .container_1_button-right{
+    right: 20px;
+  }
+  .container_1_background_left{
+    width: 60%;
+    padding-left: 16px;
+    padding-top: 10px;
+  }
+  .container_1_background_right{
+    width: 40%;
+    right: 0;
+  }
+  .container_1_background_left>h1,
+  .container_1_background_left>h3,
+  .container_1_background_left>h2{
+    font-size: 8px;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    line-height: 0;
+  }
+  .container_1_background_right > img{
+    width: 70px;
+    right: 20px;
+    top: -14px;
+  }
+
+  .head2 {
+    padding: 0;
+    background-color: #f5f5f5;
+    height: 30px;
+  }
+  .head2_item {
+  }
+  .head2_logo > img {
+    width: 20px;
+    height: 20px;
+  }
+  .head2_logo > a {
+    font-size: 12px;
+    padding: 0 4px;
+  }
+  .head2_search {
+    position: absolute;
+    right: 150px;
+  }
+  .head2_search::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 18px;
+    background-color: #d9d9d9;
+    position: absolute;
+    right: -50px;
+  }
+  .head2_search > img {
+    height: 14px;
+    width: 36px;
+  }
+  .img_search_1 {
+    display: none;
+  }
+  .head1,
+  .head2_search > input,
+  .head2_signup_in > a,
+  .head2_signup_in > span,
+  .head2_cart > a {
+    display: none;
+  }
+  .head2_signup_in {
+    position: absolute;
+    right: 60px;
+  }
+  .head2_signup_in::before {
+    right: 0px;
+  }
+  .head2_signup_in > img {
+    height: 18px;
+  }
+  .head2_cart {
+    padding-right: 16px;
+  }
+  .head2_cart > img {
+    height: 16px;
+  }
+  .head2 > span {
+    top: 30px;
+  }
+
+  .head3 {
+    height: 50px;
+  }
+  .head3 > span {
+    top: 80px;
+  }
+  .head3_button {
+    min-width: 15px;
+    max-width: 120px;
+    height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .head3_button > img {
+    display: none;
+  }
+
+  .all_item-hide {
+    display: none;
+  }
+
+  .container_1 {
+    
+  }
+
+  .header_container-item {
+    width: 80%;
+    padding-bottom: 10px;
+  }
+  .header_container-item > h5 {
+    font-size: 12px;
+  }
+  .header_container-item > button {
+    font-size: 12px;
+  }
+  .header_container-item {
+    height: 8px;
+  }
+  .container_2_Smartphones > span,
+  .container_3_categories > span,
+  .container_4_electronicsbrands > span,
+  .container_5_essentials > span {
+    width: 80%;
+  }
+
+  .smartphones {
+    width: 80%;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .smartphone-item_info {
+    height: 195px;
+    width: 140px;
+  }
+  .smartphone-item_background {
+    width: 136px;
+    height: 114px;
+  }
+  .smartphone-item_background > img {
+    height: 64px;
+    width: 34px;
+  }
+  .smartphone-item_price-sale {
+    width: 137px;
+    top: 114px;
+    height: 80px;
+    font-size: 14px;
+  }
+  .smartphone-item_price-sale > h5 {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .smartphone-item__price_strike {
+    width: 80%;
+    top: 56px;
+  }
+  .smartphone-item__price {
+    font-size: 12px;
+  }
+  .smartphone-item_price-salemoney {
+    top: 60px;
+  }
+
+  .container_3_categories {
+    top: 360px;
+    padding: 0;
+  }
+  .categories {
+    padding-top: 20px;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .categories-item_background {
+    width: 90px;
+    height: 90px;
+  }
+  .categories-item_background > img {
+    width: 32px;
+    height: 60px;
+  }
+
+  .container_electronicsbrands {
+    top: 420px;
+  }
+  .electronisbrands,
+  .container_4_electronicsbrands {
+    width: 100%;
+  }
+  .header_container_electronicsbrands.header_container-item {
+    width: 100%;
+  }
+  .header_container_electronicsbrands > span {
+    left: 40px;
+  }
+  .electronisbrands {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .container_4_electronicsbrands {
+    width: 80%;
+  }
+
+  .electronisbrands-item {
+    width: 300px;
+    height: 116px;
+  }
+  .electrocnic_image_phone {
+    width: 90px;
+    height: 140px;
+  }
+  .elecbrands_logo_iphone,
+  .elecbrands_logo_realme,
+  .elecbrands_logo_xiaomi {
+    font-size: 14px;
+    width: 70px;
+    height: 30px;
+  }
+  .electronicsbrands-item_info {
+    height: 100px;
+  }
+  .electronicsbrands-item_info > img {
+    padding: 8px 0;
+    width: 34px;
+  }
+  .electronicsbrands-item_info > h5 {
+    font-size: 16px;
+  }
+
+  .container_5_essentials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .container_5_essentials > span {
+    position: relative;
+  }
+  .essentials {
+    width: 100%;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: center;
+  }
+  .container_essentials {
+    justify-content: flex-start;
+    top: 480px;
+    gap: 0;
+  }
+  .essentials-item {
+    width: 90px;
+  }
+  .essentials-item_background {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .essentials-item_background > img {
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    top: 30px;
+  }
+  .essentials-item_text > h5,
+  .essentials-item_text > h4 {
+    font-size: 10px;
+  }
+
+  .footer {
+    height: auto;
+    bottom: -520px;
+  }
+  .footer_heading {
+    padding: 20px 20px 0;
+  }
+  .footer_heading-left {
+    width: 35%;
+  }
+  .footer_heading-left > h2 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .footer_heading-left > h3 {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+  }
+  .footer_heading-left_whatsapp {
+    padding: 0;
+  }
+  .footer_heading-left_apptext {
+    font-size: 12px;
+  }
+  .footer_heading-left_appsize {
+    width: 14px;
+    height: 14px;
+  }
+  .footer_heading-left_phonenumber {
+    font-size: 12px;
+  }
+  .footer_heading-left_download > h3 {
+    font-size: 12px;
+    padding: 0 0 6px 0;
+  }
+  .footer_heading-left_appstore>img{
+    min-width: 50px;
+    min-height: 20px;
+    max-width: 100px;
+    max-height: 30px;
+  }
+
+  .footer_heading-right{
+    padding: 20px 0 0 0;
+    top: 0;
+    width: 65%;
+    height: auto;
+  }
+  .footer_heading-right_sizetext{
+    font-size: 14px;
+    width: 50%;
+    position: relative;
+    right: 0;
+    padding: 0;
+  }
+  .footer_heading-right_popular > span{
+    border: 1px solid;
+    width: 172px;
+  }
+  .footer_heading-right_popular > ul{
+    padding: 4px 24px;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .footer_heading-right_popular > ul > li,
+  .footer_heading-right_services > ul > li{
+    padding: 0;
+  }
+  .footer_heading-right_services > span{
+    border: 1px solid;
+    width: 130px;
+  }
+  .footer_ending > span{
+    width: 80%;
+  }
+  .footer_ending > h1{
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+  }
+  .head2,
+  .head1 > ul {
+    padding: 0 12px;
+  }
+  .head_item_2 {
+    padding: 12px 0 0 0;
+  }
+  .head2_search {
+    width: 220px;
+  }
+  .head2_input_search {
+    white-space: nowrap;
+    overflow: hidden; /* áº¨n pháº§n vÄƒn báº£n bá»‹ trÃ n */
+    text-overflow: ellipsis; /* Hiá»ƒn thá»‹ dáº¥u ba cháº¥m (...) */
+  }
+  .img_search_1 {
+    padding-right: 0;
+  }
+  .img_search_2 {
+    padding-left: 0;
+  }
+  .head2 > span {
+    top: 66px;
+  }
+  .head3 {
+    /* padding: 0 12px; */
+  }
+  .head3 > span {
+    top: 160px;
+  }
+  .head3_button {
+    margin: 2px;
+    max-width: 100px;
+    min-width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .container_1 {
+    top: 8px;
+    padding: 0;
+  }
+  .container_1_background {
+    height: 248px;
+  }
+  .container_1_background_left {
+    left: -8px;
+  }
+  .container_1_background_left > h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .container_1_background_left > h3 {
+    font-size: 28px;
+    line-height: 0.875rem;
+  }
+  .container_1_background_left > h2 {
+    font-size: 26px;
+    line-height: 0.875rem;
+  }
+  .container_1_background_right > img {
+    top: -76px;
+    right: 40px;
+    height: 200px;
+  }
+  .container_1_background_right {
+    padding: 24px 0 22px 0;
+    right: -300px;
+  }
+  .header_container-item {
+    width: 650px;
+  }
+  .container_2_Smartphones > span {
+    width: 650px;
+  }
+  .smartphones {
+    padding: 30px 0;
+  }
+  .smartphone-item_info {
+    width: 116px;
+    height: 180px;
+  }
+  .smartphone-item_background {
+    width: 115px;
+    height: 124px;
+  }
+  .smartphone-item_background > img {
+    width: 50px;
+    height: 80px;
+  }
+  .smartphone-item_price-sale {
+    width: 114px;
+    top: 112px;
+    height: 67px;
+  }
+  .smartphone-item_price-sale > h5 {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .smartphone-item__price {
+    font-size: 12px;
+  }
+  .smartphone-item__price_strike {
+    top: 48px;
+    left: 8px;
+    width: 100px;
+  }
+  .smartphone-item_price-salemoney {
+    position: relative;
+    top: 8px;
+  }
+  .container_3_categories > span {
+    width: 650px;
+  }
+  .container_3_categories {
+    padding-top: 0;
+  }
+  .categories {
+    gap: 10px;
+  }
+  .categories-item_background {
+    width: 84px;
+    height: 80px;
+  }
+  .categories-item_background > img {
+    width: 32px;
+    height: 54px;
+  }
+  .header_container_electronicsbrands {
+    position: relative;
+  }
+  .container_4_electronicsbrands > span {
+    width: 650px;
+    right: 60px;
+  }
+  .electronisbrands-item {
+    width: 210px;
+    height: 120px;
+  }
+  .electrocnic_image_phone {
+    height: 150px;
+    width: 86px;
+  }
+  .elecbrands_logo_iphone {
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+  }
+  .electronicsbrands-item_info {
+    height: 94px;
+  }
+  .electronicsbrands-item_info > img {
+    width: 44px;
+    height: 32px;
+    padding: 0;
+  }
+  .electronicsbrands-item_info > h5 {
+    font-size: 12px;
+  }
+  .elecbrands_logo_xiaomi,
+  .elecbrands_logo_realme {
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+  }
+  .container_5_essentials > span {
+    width: 650px;
+  }
+  .essentials-item {
+    width: 96px;
+  }
+  .essentials-item_background {
+    height: 100px;
+    width: 96px;
+  }
+  .essentials-item_background > img {
+    width: 96px;
+    height: 70px;
+    top: 72px;
+  }
+  .essentials-item_text > h5 {
+    font-size: 12px;
+  }
+  .essentials-item_text > h4 {
+    font-size: 13px;
+  }
+
+  .footer {
+    height: 460px;
+  }
+  .footer_heading {
+    padding: 30px 60px;
+  }
+  .footer_heading-left {
+    width: 32%;
+  }
+  .footer_heading-left > h2 {
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+  .footer_heading-left_appstore {
+    padding: 0;
+  }
+  .footer_heading-left_appstore > img {
+    height: 30px;
+    width: 100px;
+  }
+  .footer_heading-right_popular > ul {
+    left: 10px;
+  }
+  .footer_heading-right_popular > ul > li,
+  .footer_heading-right_services > ul > li {
+    padding: 4px 6px;
+  }
+  .footer_heading-right_popular > h3,
+  .footer_heading-right_services > h3 {
+    font-size: 14px;
+  }
+  .footer_heading-right_services > h3 {
+    padding: 4px 16px;
+  }
+  .footer_heading-right_popular > span {
+    width: 150px;
+  }
+  .footer_heading-right_services > span {
+    width: 110px;
+    left: 16px;
+  }
+  .footer_heading-right {
+    width: 60%;
+    right: 2px;
+    top: 30px;
+  }
+  .footer_heading-right_services {
+    right: 42px;
+  }
+  .footer_ending > span {
+    width: 650px;
+  }
+  .footer_ending > h1 {
+    padding: 16px 0 0 0;
+  }
+}
